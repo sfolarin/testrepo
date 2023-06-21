@@ -51,7 +51,7 @@ pipeline {
                nexusVersion: 'nexus3', 
                protocol: 'http', 
                repository: 'my-repo',
-               version: '$BUILD_NUMBER'
+               version: 'v1.$BUILD_NUMBER'
             }
         }
         
